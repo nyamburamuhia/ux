@@ -4,9 +4,9 @@ ignore_patterns = .git .gitignore deploy/deployrc
 minkeepdeploys = 10
 minkeeptime = 5d
 
-#[directories]
+[directories]
 #wp-admin = /
-#wp-content = /
+wp-content = /
 #wp-includes = /
 
 #[files]
