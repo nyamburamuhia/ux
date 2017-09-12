@@ -9,8 +9,8 @@ minkeeptime = 5d
 ../wp-content = /
 ../wp-includes = /
 
-#[files]
-#* = /
+[files]
+* = /
 
 #[postexec]
 #plugins = activate_plugins with deployrc -- have a json file somewhere holding details of plugins to activate and #deactivate
