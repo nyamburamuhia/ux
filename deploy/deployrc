@@ -13,5 +13,5 @@ minkeeptime = 5d
 ../* = /
 
 [postexec]
-plugin=`cat plugins.json | json select '.name'`
+plugin=cat plugins.json
 #plugins = activate_plugins with deployrc -- have a json file somewhere holding details of plugins to activate and #deactivate
