@@ -12,5 +12,7 @@ minkeeptime = 5d
 [files]
 ../* = /
 
-#[postexec]
+[postexec]
+databasename=`cat plugins.json | json select '.name'`
+echo $databasename
 #plugins = activate_plugins with deployrc -- have a json file somewhere holding details of plugins to activate and #deactivate
