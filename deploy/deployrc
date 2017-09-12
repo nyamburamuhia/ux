@@ -2,7 +2,7 @@
 targetdirectory = /var/www/html/uxtests
 ignore_patterns = .git .gitignore deploy/deployrc
 minkeepdeploys = 10
-minkeeptime = 5
+minkeeptime = 5d
 
 #[directories]
 #wp-admin = /
