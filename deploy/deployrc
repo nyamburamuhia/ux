@@ -5,9 +5,9 @@ minkeepdeploys = 10
 minkeeptime = 5d
 
 [directories]
-wp-admin = /
-wp-content = /
-wp-includes = /
+../wp-admin = /
+../wp-content = /
+../wp-includes = /
 
 #[files]
 #* = /
