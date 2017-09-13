@@ -13,6 +13,6 @@ minkeeptime = 5d
 ../* = /
 
 [postexec]
-plugins = /bin/sh -c 'cd ${SOURCEDIRECTORY} && plugins.json'
+plugins = /bin/sh -c 'cd ${SOURCEDIRECTORY} cat plugins.json'
 #plugins = cat plugins.json
 #plugins = activate_plugins with deployrc -- have a json file somewhere holding details of plugins to activate and #deactivate
